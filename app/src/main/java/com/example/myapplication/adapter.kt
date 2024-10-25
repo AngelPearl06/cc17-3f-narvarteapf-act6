@@ -32,5 +32,6 @@ class adapter(private val tips: List<Tip>) : RecyclerView.Adapter<adapter.ViewHo
         holder.imageView.setImageResource(tip.image)
     }
 
+
     override fun getItemCount() = tips.size
 }
